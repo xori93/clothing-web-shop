@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 nav {
   height: 80px;
   display: flex;
@@ -207,6 +222,28 @@ LANDING
   align-items: center;
 }
 
+/* 
+
+CLOTHING
+
+*/
+
+#clothing {
+  padding-top: 8vw;
+  background-color: rgba(115, 66, 214, 0.1);
+}
+
+.clothes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -24px;
+}
+
+.clothes__img {
+  max-height: 320px;
+  max-width: 250px;
+  transition: all 300ms ease;
+}
 
 
 

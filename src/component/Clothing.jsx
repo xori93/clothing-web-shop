@@ -32,9 +32,9 @@ const Clothing = () => {
             <div className="clothes">
                 {products.map(product => (
                     <li key={product.id}>
-                        <h3>{product.title}</h3>
-                        <p>Price: ${product.price}</p>
-                        <img src={product.images[0]} alt={product.title} width="100" />
+                        <img className="product__img" src={product.images[0]} alt={product.title} width="100" />
+                        <h3 className="product__title">{product.title}</h3>
+                        <p className="product__price">Price: ${product.price}</p>
                     </li>
                 ))}
             </div>

@@ -230,13 +230,16 @@ CLOTHING
 
 #clothing {
   padding-top: 8vw;
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #1e1e1e;
+  /* background-color: #f4e1d2; */
+  /* background-color: #c2b280; */
+  /* background-color: #6e5f57; */
 }
 
 .clothes {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -24px;
+  width: 100%;
 }
 
 .clothes__img {
@@ -245,7 +248,25 @@ CLOTHING
   transition: all 300ms ease;
 }
 
+.product__img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-right: 12px;
 
+}
+
+.product__title{
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: #fff;
+  font-size: 12px;
+}
+
+.product__price {
+  color: #fff;
+}
 
 
 
